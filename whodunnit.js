@@ -125,7 +125,7 @@
 // changeMurderer();
 // const verdict = declareMurderer();
 // console.log(verdict);
-// // Prediction: The murderer is Mr Green - Got it wrong, good to know you can use a const within a const and that still works
+// // Prediction: The murderer is Mr Green - Got it wrong, good to know you can use a const within a const and that still works, Mr White works its way up to variable where it gets declared and because it was let that was fine and wasnt tryint to be declared again anywhere else
 
 
 // Episode 7
@@ -144,6 +144,7 @@
 //     }
 
 //     unexpectedOutcome();
+//     console.log(murderer);
 //   }
 
 //   plotTwist();
@@ -156,7 +157,7 @@
 // changeMurderer();
 // const verdict = declareMurderer();
 // console.log(verdict);
-// // Prediction: The murderer is Miss Scarlet - Confused by this one! I guess because trying to use let in plotTwist?
+// // Prediction: The murderer is Miss Scarlet - Confused by this one! I guess because trying to use let in plotTwist? Yes it was let in plotTwist, Miss Scarlet gets assigned to new let murderer
 
 
 // Episode 8
